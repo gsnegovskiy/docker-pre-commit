@@ -9,6 +9,8 @@ RUN apt-get update \
       curl \
       ca-certificates \
       python3 \
+      python3-distutils \
+      python3-yaml \
       && mkdir /pre-commit \
       && rm -rf /var/cache/apt/archives
 
